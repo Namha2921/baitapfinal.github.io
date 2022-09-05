@@ -1,0 +1,379 @@
+html{
+    font-size: 14px;
+}
+body{
+    margin:5px auto;
+    padding:0;
+    width: 90vw;
+    height: auto;
+    border: 2px solid black;
+    font-family: Roboto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    /* margin: 1vh; */
+    /* padding 3vh; */
+    /* border: 2px solid black; */
+}
+.left{
+    /* display: inline-block; */
+    width: 35%;
+    margin-right: 5px;
+    background-color: rgb(255, 203, 71);
+    padding-left: 8px;
+}
+.left p {
+    font-size: 1rem;
+}
+.left .header_left img{
+    height: 100px;
+    max-height: 100%;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 2vh;
+    transform: translateX(-50%);
+    /* vertical-align: middle; */
+}
+.left .header_left h2 {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: -16px;
+}
+.left .header_left h3 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.left .profile_left h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* /* .left .profile_left .demo1{
+    padding-bottom: 0;
+    border-bottom: 1px solid black ; */
+.left .contact_left h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.left .interest_left h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.left .interest_left .container_interest {
+    margin-left: -9px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+/* .left .interest_left .container_interest i{
+    position: relative;
+    left: 50%;
+    top: 5px;
+    height: 10px;
+    width: 10px;
+    transform:translateX(-50%);
+} */
+.left .interest_left .container_interest p {
+    text-align: center;
+}
+.left .interest_left .container_interest img {
+    height: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.left .language_left {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;}
+   
+/* .left .language_left .Vietnammese{
+    display: flex;
+    flex-direction: row;
+}
+
+.left .language_left .vietnammese_progress{
+    width: 13rem;
+    height: 1rem;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 1.3rem;
+    border-radius: 3px;
+}
+.left .language_left .Vietnammese p{
+    margin-top: 0px;
+}
+.left .language_left .Vietnammese .VN_progressfill{
+    height: 1rem;
+    width:50%;
+    background-color: black;
+}
+.left .language_left .English{
+    display: flex;
+    flex-direction: row;
+}
+.left .language_left .English .english_progress{
+    width: 13rem;
+    height: 1rem;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 1.3rem;
+    border-radius: 3px;
+}
+
+.left .English p{
+    margin-top: 0px;
+}
+.left .language_left .English .english_progressfill{
+    height: 1rem;
+    width:50%;
+    background-color: black;
+/* }* */
+.left .language_left .progress{
+    display: flex;
+    flex-direction: row;
+}
+.left .language_left .progress .language-text{
+    margin-top: -3vh;
+
+}
+.language_left .language-progress .vietnammese_progress{
+    width: 11rem;
+    height: 1rem;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 1.3rem;
+    border-radius: 3px;
+}
+.language_left .language-progress .VN_progressfill{
+    height: 1rem;
+    width: 90%;
+    background-color: black;
+    border-radius: 3px;
+}
+.language_left .language-progress .english_progress{
+    width: 11rem;
+    height: 1rem;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 1.3rem;
+    border-radius: 3px;
+}
+.language_left .language-progress .english_progressfill{
+    height: 1rem;
+    width:50%;
+    background-color: black;
+    margin-top: 2.6vh;
+    border-radius: 3px;
+
+}
+.right{
+    width: 60%;
+    margin-left: 2vw;
+    padding: 3vw;
+}
+.right p{
+    font-size: 15px;
+}
+.right .introduce_right h1 {
+    color: rgb(255, 203, 71); 
+    margin-top: 6vh;
+    margin-bottom: -1vh;
+}
+.right .experience_right {
+    height: 30vh;
+    position: relative;
+}
+ .right .experience_right p{
+    position: absolute;
+    padding: 0 3px; }
+
+.right .experience_right p:first-of-type {
+       background-color: rgb(255, 203, 71) ;
+}
+.right .experience_right p:nth-of-type(3){
+    position:absolute;
+    background-color: rgb(255, 203, 71) ;
+    left: 210px;
+}
+.right .experience_right p:nth-of-type(2){
+    background-color: rgb(255, 203, 71) ;
+    top: 112px;
+}
+.right .experience_right p:nth-of-type(6){
+    background-color: rgb(255, 203, 71) ;
+    left: 210px;
+    top: 112px;
+}
+.right .experience_right p:nth-of-type(4){
+    left: 210px;
+    top: 60px;
+}
+.right .experience_right p:nth-of-type(5){
+    left: 210px;
+    top:81px;
+}
+.right .experience_right p:nth-of-type(7){
+    left: 210px;
+    top: 135px;
+}
+.right .experience_right .line{
+    width: 2px;
+    height: 140px;
+    position:absolute;
+    left: 138px;
+    background-color: black;
+}
+.right .experience_right div:nth-of-type(2){
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 203, 71);
+    border-radius: 50%;
+    position: absolute;
+    left: 132.2px;
+    top: 54px;
+}
+.right .experience_right div:nth-of-type(5){
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 203, 71);
+    border-radius: 50%;
+    position: absolute;
+    left: 132.2px;
+    top: 129px;
+}
+.right .experience_right div:nth-of-type(3){
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 135.2px;
+    top: 80px;
+}
+.right .experience_right div:nth-of-type(4){
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 135.2px;
+    top: 100px;
+}
+.right .experience_right div:nth-of-type(6){
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 135.2px;
+    top: 153px;
+}
+.right .abilities_right{
+    margin-top: 10vh;
+    height: 26vh;
+}
+.right .abilities_right h4{
+    margin-bottom: 5vh;
+}
+
+.right .abilities_right .container_experience {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.right .abilities_right .lmviecnhom{
+    height: 68px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-72%);
+}
+.right .abilities_right .container_experience div{
+    text-align: center;
+}
+.right .abilities_right .giaotiep{
+    height: 68px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-137%);
+}
+.right .abilities_right .tuduy{
+    height: 68px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-125%);
+}
+.right .abilities_right .kehoach{
+    height: 68px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-125%);
+}
+.right .software-skill_right{
+    margin-top: 10vh;
+}
+
+.right .software-skill_right .container_software{
+    display: flex;
+
+}
+.right .software-skill_right h4{
+    margin-bottom: 8vh;
+}
+
+
+.right .software-skill_right .container_software .container_software_left p:first-child{
+    background-color:rgb(255, 203, 71) ;
+    border-radius: 50%; 
+    font-size: 20px;
+    width: 12vh;
+    height: 12vh;
+    margin: 0 auto;
+    line-height:12vh;
+    text-align: center;
+   border: 5px solid black;
+    font-weight: bold;
+}
+.right .software-skill_right .container_software .container_software_right  p:first-child{
+    background-color:rgb(255, 203, 71) ;
+    border-radius: 50%; 
+    font-size: 20px;
+    width: 12vh;
+    height:12vh;
+    margin: 0 auto;
+    line-height:12vh;
+    text-align: center;
+    font-weight: bold;
+    border: 5px solid black;
+}
+.right .software-skill_right .container_software .container_software_left{
+    width: 50%;
+   
+}
+.right .software-skill_right .container_software  p{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+
+.right .software-skill_right .container_software .container_software_right{
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
